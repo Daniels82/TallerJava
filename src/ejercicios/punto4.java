@@ -20,19 +20,14 @@ public class punto4 {
             
             System.out.println("Digite el precio de un articulo con un valor entero :");
              precio = opcion.nextInt();
-             System.out.println("Digite un numero :");
-             numero2 = opcion.nextInt();
-             System.out.println("Digite un numero :");
-             numero3 = opcion.nextInt();
-             System.out.println("Digite un numero :");
-             numero4 = opcion.nextInt();
+             System.out.println("Digite la cantidad de productos :");
+             cantidad = opcion.nextInt();
+             
              
                            
-           suma =numero1+numero2+numero3+numero4; 
-       System.out.println("La suma es :"+suma);
- 
-     multiplicacion = numero1*numero2*numero3*numero4 ; 
-       System.out.println("El producto es :"+multiplicacion);
+          
+     multiplicacion = precio*cantidad ; 
+       System.out.println("Lo que debe abonar es :"+multiplicacion);
      
      
     
@@ -44,4 +39,4 @@ public class punto4 {
     
 }
     
-}
+
