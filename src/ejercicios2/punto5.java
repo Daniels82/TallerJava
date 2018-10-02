@@ -15,15 +15,15 @@ import javax.swing.JOptionPane;
 public class punto5 {
       public static void main(String[] args) {
          
-        Double numero1, numero2, numero3 ;
-        String nombre;
+        //Double numero1, numero2, numero3 ;
+      //  String nombre, categoria;
       
-          Scanner opcion = new Scanner(System.in);
+          //Scanner opcion = new Scanner(System.in);
             
-            numero1= Double.parseDouble(JOptionPane.showInputDialog(null,"Digite un numero entero de 3 cifras"));
+            
+      //     categoria = (JOptionPane.showInputDialog(null,"ingrese su nombre"));  
              
-             
-                  if(numero1>100 && numero1<1000){
+                 /* if(numero1>100 && numero1<1000){
                       JOptionPane.showMessageDialog(null,"El numero tiene 3 cifras  ");
                       
                   }else 
@@ -34,7 +34,7 @@ public class punto5 {
                       JOptionPane.showMessageDialog(null,"El numero tiene 1 cifra  ");
                      
           
-                      }
-     
+                      }*/
+     }}
     
-}
+
